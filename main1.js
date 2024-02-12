@@ -44,9 +44,9 @@ function pickRandomNum() {
 function play() {
     let userValue = userInput.value
     console.log(gameOver)
-    // if(gameOver = true) {
-    //     return;
-    // }
+    if(gameOver = true) {
+        return;
+    }
 
     if(userValue < 1 || userValue > 100 || userValue % 1 !== 0) {
         resultArea.textContent = '유효하지 않은 숫자입니다! 다시 입력해주세용'
