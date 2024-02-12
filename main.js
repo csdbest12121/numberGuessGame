@@ -10,6 +10,8 @@
 //유저가 1~100 범위 밖에 숫자를 입력하면 알려줌.  기회를 깎지는 않음
 //유저가 입력한 숫자를 또 입력하면 알려주고, 기회를 깎지는 않음
 
+//제발 되기를..
+
 let playButton = document.getElementById('play-button')
 let userInput = document.getElementById('user-input')
 let resultArea = document.getElementById('result-area')
